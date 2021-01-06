@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssuredFrameworksuite]">
+  <test thread-count="5" name="RestAssuredtest(failed)">
+    <classes>
+      <class name="testCases.TC1_Get_AllEmployee">
+        <methods>
+          <include name="checkresponsetime"/>
+          <include name="getAllEmployees"/>
+          <include name="checkstatusline"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC1_Get_AllEmployee -->
+    </classes>
+  </test> <!-- RestAssuredtest(failed) -->
+</suite> <!-- Failed suite [RestAssuredFrameworksuite] -->

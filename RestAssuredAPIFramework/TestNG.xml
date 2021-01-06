@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RestAssuredFrameworksuite">
+  <test name="RestAssuredtest">
+    <classes>
+      <class name="testCases.TC1_Get_AllEmployee" />
+      <class name="testCases.TC2_Post_Employee" />
+       
+    </classes>
+  </test>
+</suite>

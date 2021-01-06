@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAssuredFrameworksuite" duration-ms="3968" started-at="2019-11-04T19:47:00 CST" finished-at="2019-11-04T19:47:04 CST">
+    <groups>
+    </groups>
+    <test name="RestAssuredtest" duration-ms="3968" started-at="2019-11-04T19:47:00 CST" finished-at="2019-11-04T19:47:04 CST">
+      <class name="testCases.TC1_Get_AllEmployee">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC1_Get_AllEmployee@7c16905e]" name="setup" is-config="true" duration-ms="545" started-at="2019-11-04T19:47:00 CST" finished-at="2019-11-04T19:47:00 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:testCases.TC1_Get_AllEmployee@7c16905e]" name="getAllEmployees" is-config="true" duration-ms="2803" started-at="2019-11-04T19:47:00 CST" finished-at="2019-11-04T19:47:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkresponsetime()[pri:0, instance:testCases.TC1_Get_AllEmployee@7c16905e]" name="checkresponsetime" duration-ms="3" started-at="2019-11-04T19:47:03 CST" finished-at="2019-11-04T19:47:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkresponsetime -->
+        <test-method status="PASS" signature="checkstatusbody()[pri:0, instance:testCases.TC1_Get_AllEmployee@7c16905e]" name="checkstatusbody" duration-ms="46" started-at="2019-11-04T19:47:03 CST" finished-at="2019-11-04T19:47:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusbody -->
+        <test-method status="PASS" signature="checkstatuscode()[pri:0, instance:testCases.TC1_Get_AllEmployee@7c16905e]" name="checkstatuscode" duration-ms="1" started-at="2019-11-04T19:47:03 CST" finished-at="2019-11-04T19:47:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method status="PASS" signature="checkstatusline()[pri:0, instance:testCases.TC1_Get_AllEmployee@7c16905e]" name="checkstatusline" duration-ms="1" started-at="2019-11-04T19:47:03 CST" finished-at="2019-11-04T19:47:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+      </class> <!-- testCases.TC1_Get_AllEmployee -->
+      <class name="testCases.TC2_Post_Employee">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC2_Post_Employee@2a2d45ba]" name="setup" is-config="true" duration-ms="4" started-at="2019-11-04T19:47:03 CST" finished-at="2019-11-04T19:47:03 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PostsingleEmployees()[pri:0, instance:testCases.TC2_Post_Employee@2a2d45ba]" name="PostsingleEmployees" is-config="true" duration-ms="489" started-at="2019-11-04T19:47:03 CST" finished-at="2019-11-04T19:47:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostsingleEmployees -->
+        <test-method status="PASS" signature="checkresponsetime()[pri:0, instance:testCases.TC2_Post_Employee@2a2d45ba]" name="checkresponsetime" duration-ms="3" started-at="2019-11-04T19:47:04 CST" finished-at="2019-11-04T19:47:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkresponsetime -->
+        <test-method status="PASS" signature="checkstatusbody()[pri:0, instance:testCases.TC2_Post_Employee@2a2d45ba]" name="checkstatusbody" duration-ms="33" started-at="2019-11-04T19:47:04 CST" finished-at="2019-11-04T19:47:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusbody -->
+        <test-method status="PASS" signature="checkstatuscode()[pri:0, instance:testCases.TC2_Post_Employee@2a2d45ba]" name="checkstatuscode" duration-ms="2" started-at="2019-11-04T19:47:04 CST" finished-at="2019-11-04T19:47:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatuscode -->
+        <test-method status="PASS" signature="checkstatusline()[pri:0, instance:testCases.TC2_Post_Employee@2a2d45ba]" name="checkstatusline" duration-ms="1" started-at="2019-11-04T19:47:04 CST" finished-at="2019-11-04T19:47:04 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusline -->
+      </class> <!-- testCases.TC2_Post_Employee -->
+    </test> <!-- RestAssuredtest -->
+  </suite> <!-- RestAssuredFrameworksuite -->
+</testng-results>
